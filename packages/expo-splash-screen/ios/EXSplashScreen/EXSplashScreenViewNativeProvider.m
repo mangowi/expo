@@ -44,7 +44,7 @@
   }
   
   @throw [NSException exceptionWithName:@"ERR_NO_SPLASH_SCREEN"
-                                 reason:[NSString stringWithFormat:@"Couln't locate neither '%@.storyboard' file nor '%@.xib' file. Create one of these in the project to make 'expo-splash-screen' work (https://github.com/expo/expo/tree/master/packages/expo-splash-screen#-configure-ios).", splashScreenFilename, splashScreenFilename]
+                                 reason:[NSString stringWithFormat:@"Couldn't locate neither '%@.storyboard' file nor '%@.xib' file. Create one of these in the project to make 'expo-splash-screen' work (https://github.com/expo/expo/tree/master/packages/expo-splash-screen#-configure-ios).", splashScreenFilename, splashScreenFilename]
                                userInfo:nil];
 }
 
