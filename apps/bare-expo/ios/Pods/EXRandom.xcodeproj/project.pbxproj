@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05CEDE34E00CEF84445D8049960314AD /* EXRandom-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D0B21C5273B39793C5888E56269885 /* EXRandom-dummy.m */; };
-		14EAFB29B871633E638DE6E77C603A37 /* EXRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 738B1A376EFF56FBAB8B0CA54A1C24B6 /* EXRandom.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4C9A17CE833C89D845C2CA7DC694C76C /* EXRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C895A037BDF05259C9F964D5FDCA0E0 /* EXRandom.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71EF6C0F417763CEF4CB73374FC90B67 /* EXRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C895A037BDF05259C9F964D5FDCA0E0 /* EXRandom.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		80153A3A5BDDF72E23DA040D95AAE37B /* EXRandom-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D0B21C5273B39793C5888E56269885 /* EXRandom-dummy.m */; };
+		D161A65619840564F5C2AC4EFC16A2FF /* EXRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 738B1A376EFF56FBAB8B0CA54A1C24B6 /* EXRandom.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C0971CF7C0B74D3E53AF8EF8D1551347 /* PBXContainerItemProxy */ = {
+		277DD6608E44ECAA87479989C47968C6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FDCA8F549D32EB7E5A41359356DA801D /* React.xcodeproj */;
 			proxyType = 1;
@@ -35,7 +35,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F0256F54D0C6225A6C556908D019455D /* Frameworks */ = {
+		D7028D936EFBC5E18CF747485A57BD55 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -113,11 +113,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1A5E357382B0273D3C8E350BA00ADFF3 /* Headers */ = {
+		8AB8CFB31A447AAAE21A89AFFD8C520C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C9A17CE833C89D845C2CA7DC694C76C /* EXRandom.h in Headers */,
+				71EF6C0F417763CEF4CB73374FC90B67 /* EXRandom.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,16 +126,16 @@
 /* Begin PBXNativeTarget section */
 		00EB4A6BB9778AFFF7F587D732973596 /* EXRandom */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36A85DEC73C5B4E48FEB3E2CE2A26F3C /* Build configuration list for PBXNativeTarget "EXRandom" */;
+			buildConfigurationList = 1771C6C4F30AD2489CADFA243FF36738 /* Build configuration list for PBXNativeTarget "EXRandom" */;
 			buildPhases = (
-				1A5E357382B0273D3C8E350BA00ADFF3 /* Headers */,
-				D37FFF0DCD3D17DBB65BCA36753A22BA /* Sources */,
-				F0256F54D0C6225A6C556908D019455D /* Frameworks */,
+				8AB8CFB31A447AAAE21A89AFFD8C520C /* Headers */,
+				9678EFD09C6E4E008C4A13EF59DC054A /* Sources */,
+				D7028D936EFBC5E18CF747485A57BD55 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D04A0E8F2CF02CEC6EF5D985D8755793 /* PBXTargetDependency */,
+				D91947A8AE279A886678C8498C34CEB9 /* PBXTargetDependency */,
 			);
 			name = EXRandom;
 			productName = EXRandom;
@@ -175,30 +175,82 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D37FFF0DCD3D17DBB65BCA36753A22BA /* Sources */ = {
+		9678EFD09C6E4E008C4A13EF59DC054A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05CEDE34E00CEF84445D8049960314AD /* EXRandom-dummy.m in Sources */,
-				14EAFB29B871633E638DE6E77C603A37 /* EXRandom.m in Sources */,
+				80153A3A5BDDF72E23DA040D95AAE37B /* EXRandom-dummy.m in Sources */,
+				D161A65619840564F5C2AC4EFC16A2FF /* EXRandom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D04A0E8F2CF02CEC6EF5D985D8755793 /* PBXTargetDependency */ = {
+		D91947A8AE279A886678C8498C34CEB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = React;
-			targetProxy = C0971CF7C0B74D3E53AF8EF8D1551347 /* PBXContainerItemProxy */;
+			targetProxy = 277DD6608E44ECAA87479989C47968C6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		300933D08555CB7EDD3E961A886E0E71 /* Debug */ = {
+		25AD63671BAA4F090FFE90DBFDD3805F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C5A1A1C5498A4D797BC312930AD84C5 /* EXRandom.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_PREFIX_HEADER = "Target Support Files/EXRandom/EXRandom-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EXRandom;
+				PRODUCT_NAME = EXRandom;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		363ADC98B43D25AB2BECF18DFB049C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5063B1618AB21EA03BA6C0EE5C560E9D /* EXRandom.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_PREFIX_HEADER = "Target Support Files/EXRandom/EXRandom-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EXRandom;
+				PRODUCT_NAME = EXRandom;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3AEB1800E092BD6D7CC11304082E290 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -221,6 +273,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -259,36 +312,11 @@
 			};
 			name = Debug;
 		};
-		7045DB3ABDD227D30A1753624D0021F7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5063B1618AB21EA03BA6C0EE5C560E9D /* EXRandom.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/EXRandom/EXRandom-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = EXRandom;
-				PRODUCT_NAME = EXRandom;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7E3223FFA731463206A0217DA17610E5 /* Release */ = {
+		FF9784D5D58DA7465C6EE3A8D4A2A24D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -311,6 +339,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -345,39 +374,14 @@
 			};
 			name = Release;
 		};
-		8ED9F549BC989B7DDEB5FBA6A4E01B6B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C5A1A1C5498A4D797BC312930AD84C5 /* EXRandom.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/EXRandom/EXRandom-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = EXRandom;
-				PRODUCT_NAME = EXRandom;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		36A85DEC73C5B4E48FEB3E2CE2A26F3C /* Build configuration list for PBXNativeTarget "EXRandom" */ = {
+		1771C6C4F30AD2489CADFA243FF36738 /* Build configuration list for PBXNativeTarget "EXRandom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8ED9F549BC989B7DDEB5FBA6A4E01B6B /* Debug */,
-				7045DB3ABDD227D30A1753624D0021F7 /* Release */,
+				25AD63671BAA4F090FFE90DBFDD3805F /* Debug */,
+				363ADC98B43D25AB2BECF18DFB049C6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -385,8 +389,8 @@
 		DA6318F3F1C1D240A40D56C5915E8F3F /* Build configuration list for PBXProject "EXRandom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				300933D08555CB7EDD3E961A886E0E71 /* Debug */,
-				7E3223FFA731463206A0217DA17610E5 /* Release */,
+				C3AEB1800E092BD6D7CC11304082E290 /* Debug */,
+				FF9784D5D58DA7465C6EE3A8D4A2A24D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
